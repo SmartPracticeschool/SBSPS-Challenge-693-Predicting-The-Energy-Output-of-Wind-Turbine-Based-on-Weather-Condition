@@ -1,5 +1,10 @@
 # Team GigaByte: Predicting the energy output of wind turbine based on weather condition
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SmartPracticeschool/SBSPS-Challenge-693-Predicting-The-Energy-Output-of-Wind-Turbine-Based-on-Weather-Condition/blob/master/Time%20Series.ipynb/master)
+
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/SmartPracticeschool/SBSPS-Challenge-693-Predicting-The-Energy-Output-of-Wind-Turbine-Based-on-Weather-Condition/blob/master/Time%20Series.ipynb/master
+
 ## Description
 
 ## Dataset Sources
