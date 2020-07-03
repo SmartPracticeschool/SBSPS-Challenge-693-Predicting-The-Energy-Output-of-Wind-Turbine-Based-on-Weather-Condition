@@ -23,6 +23,15 @@
         jupyter notebook
         ```
 
+## Known Issues
+1. AssertionError: Torch not compiled with CUDA enabled
+	- Sometime installing torch from anaconda packages might cause this issue. To fix this download appropriate package from [Pytorch](https://pytorch.org/). If you are using anaconda distribution and CUDA 10.2 use this command 
+	    ```sh
+	    conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+	    ```
+ 
+
+
 License
 ----
 
