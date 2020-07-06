@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+		 <style type="text/css">
+		 	
+		 	#myForm{
+		 		font-family: "Lucida Console", Courier;
+		 		width: 500px;
+		 		border-radius: 15px;
+		 		padding: 20px;
+		 		margin-top: 15px;
+		 	}
+		 </style>
+	</head> 
+   <body> 
+   	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/evaluate">Evaluate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/predict">Predict</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/SmartPracticeschool/SBSPS-Challenge-691-Predicting-the-energy-output-of-wind-turbine-based-on-weather-condition">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/mahesh-keswani">LinkedIN Profile</a>
+          </li>
+          
+        </ul>
+      </nav>  
+
+   		<div class="container">
+   			<center>
+   				<div class="jumbotron jumbotron-fluid" id="myForm">
+   				<form action="/predict" method="post">
+   					<div class="form-group">
+					    <label >Wind Speed ( in m/s )</label>
+					    <input type="number" name="wind_speed" step="any" class="form-control">
+					</div>
+					<div class="form-group">
+					    <label >Theoretical power curve ( in KWh )</label>
+					    <input type="number" name="tpc" step="any" class="form-control">
+					</div>
+					<div class="form-group">
+					    <label >Wind Direction</label>
+					    <input type="number" name="wind_d" step="any" class="form-control">
+					</div>
+					<div class="form-group">
+					    <label >Wind gust (KM / h)</label>
+					    <input type="number" name="wind_gust" step="any" class="form-control">
+					</div>
+					<div class="form-group">
+					    <label >Dew Point in celcius</label>
+					    <input type="number" name="dew_point" step="any" class="form-control">
+					</div>
+					<div class="form-group">
+					    <label >Wind chill in celcius</label>
+					    <input type="number" step="any" name="wind_chill" class="form-control">
+					</div>
+					<div class="form-group">
+					    <input type="submit" value="Submit" class="btn btn-success">
+					</div>
+					
+   				</form>
+   			</div>
+   			</center>
+   		</div>
+   </body>
+
+ </html>
